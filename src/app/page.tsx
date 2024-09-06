@@ -1,5 +1,6 @@
 import AboutUs from "./components/AboutUs/AboutUs";
 import Carrousel from "./components/Carrousel/Carrousel"
+import DoSomethingGood from "./components/DoSomethingGood/DoSomethingGood";
 export default function Home() {
   return (
     <main >
@@ -8,7 +9,9 @@ export default function Home() {
       
       </div>
       <AboutUs></AboutUs>
-
+      <div className="overflow-hidden">
+    <DoSomethingGood></DoSomethingGood>
+    </div>
     </main>
   );
 }
