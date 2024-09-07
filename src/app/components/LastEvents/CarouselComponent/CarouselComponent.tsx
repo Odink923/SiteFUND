@@ -3,6 +3,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
+import styles from './CarouselComponent.module.css';
 import { Navigation } from 'swiper/modules';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
@@ -44,16 +45,16 @@ const CarouselComponent = () => {
                                 alt={`Подія ${index + 1}`} 
                                 width={1086} 
                                 height={600}
-                                className="rounded-[60px] object-cover w-full h-full lg:w-[56.56vw] lg:h-[31.25vw]" 
+                                className="rounded-[3.13vw] object-cover w-full h-full lg:w-[56.56vw] lg:h-[31.25vw]" 
                             />
                             {/* Якщо слайд не активний - додаємо затемнення */}
                             {activeIndex !== index && (
-                                <div className="absolute inset-0 bg-black opacity-50 rounded-[60px]"></div>
+                                <div className="absolute inset-0 bg-black opacity-50 rounded-[3.13vw]"></div>
                             )}
                             {/* Якщо слайд активний - додаємо градієнт і текст */}
                             {activeIndex === index && (
                                 <>
-                                    <div className="absolute inset-0 bg-gradient-to-t from-[#202020d9] to-transparent rounded-[60px]"></div>
+                                    <div className="absolute inset-0 bg-gradient-to-t from-[#202020d9] to-transparent rounded-[3.13vw]"></div>
                                     {slide.title && (
                                         <div className="absolute bottom-10 left-10 text-white">
                                             <p className="text-[1.04vw] font-assistant">{slide.date}</p>
@@ -66,6 +67,21 @@ const CarouselComponent = () => {
                     </SwiperSlide>
                 ))}
             </Swiper>
+            <style jsx global>{`
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: white !important;
+    padding-left:4.38vw;
+    padding-right:4.38vw;
+     /* Примусове застосування білого кольору */
+  }
+
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    font-size: 2.60vw
+    !important; /* Примусове збільшення розміру стрілок */
+  }
+`}</style>
         </div>
     );
 };
