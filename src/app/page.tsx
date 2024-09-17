@@ -3,12 +3,13 @@ import Carrousel from "./components/Carrousel/Carrousel"
 import DoSomethingGood from "./components/DoSomethingGood/DoSomethingGood";
 import LastEvents from "./components/LastEvents/LastEvents";
 import OurPartners from "./components/OurPartners/OurPartners";
+import Reviews from "./components/Reviews/Reviews";
 import SupportKidsFuture from "./components/SupportKidsFuture/SupportKidsFuture";
 import WhatWeDo from "./components/WhatWeDo/WhatWeDo";
 export default function Home() {
   return (
     <main >
-     <div className="overflow-hidden">
+     {/* <div className="overflow-hidden">
       <Carrousel></Carrousel>
       
       </div>
@@ -20,7 +21,8 @@ export default function Home() {
     </div>
     <WhatWeDo></WhatWeDo>
     <SupportKidsFuture></SupportKidsFuture>
-    <OurPartners></OurPartners>
+    <OurPartners></OurPartners> */}
+    <Reviews></Reviews>
     </main>
   );
 }

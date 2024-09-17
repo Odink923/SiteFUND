@@ -2,7 +2,6 @@ import Image from 'next/image';
 import BlockWhatWeDo from './BlockWhatWeDo/BlockWhatWeDo';
 
 export default function WhatWeDo() {
-    const path1 = "/images/WhatWeDo1.png"
     return (
         <div className='relative z-10 mt-[5.99vw]'>
             {/* Background Image */}
