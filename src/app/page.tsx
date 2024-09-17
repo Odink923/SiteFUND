@@ -9,7 +9,7 @@ import WhatWeDo from "./components/WhatWeDo/WhatWeDo";
 export default function Home() {
   return (
     <main >
-     {/* <div className="overflow-hidden">
+     <div className="overflow-hidden">
       <Carrousel></Carrousel>
       
       </div>
@@ -21,7 +21,7 @@ export default function Home() {
     </div>
     <WhatWeDo></WhatWeDo>
     <SupportKidsFuture></SupportKidsFuture>
-    <OurPartners></OurPartners> */}
+    <OurPartners></OurPartners>
     <Reviews></Reviews>
     </main>
   );
