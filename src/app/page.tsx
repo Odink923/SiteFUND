@@ -1,6 +1,7 @@
 import AboutUs from "./components/AboutUs/AboutUs";
 import Carrousel from "./components/Carrousel/Carrousel"
 import DoSomethingGood from "./components/DoSomethingGood/DoSomethingGood";
+import Footer from "./components/Footer/Footer";
 import LastEvents from "./components/LastEvents/LastEvents";
 import OurPartners from "./components/OurPartners/OurPartners";
 import Reviews from "./components/Reviews/Reviews";
@@ -25,6 +26,7 @@ export default function Home() {
     <OurPartners></OurPartners>
     <Reviews></Reviews>
     <SupportFuture></SupportFuture>
+    <Footer></Footer>
     </main>
   );
 }
