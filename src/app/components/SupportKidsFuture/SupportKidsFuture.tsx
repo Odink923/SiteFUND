@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function SupportKidsFuture() {
     return (
-        <div className="relative z-0 lg:mt-[-7vw] flex justify-between lg:pl-[5.21vw]">
+        <div className="lg:mt-[-7vw] flex justify-between lg:pl-[5.21vw]">
             <div className="relative z-10 lg:pt-[17.69vw] lg:w-[39.53vw]" >
                 <h1 className="lg:text-[3.33vw] font-amatic leading-none">Підтримайте майбутнє дітей з KidsFuture.Fund</h1>
                 <p className="lg:text-[1.04vw] lg:pt-[2.34vw] font-assistant leading-none  text-justify">

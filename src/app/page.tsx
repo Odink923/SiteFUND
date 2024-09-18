@@ -4,6 +4,7 @@ import DoSomethingGood from "./components/DoSomethingGood/DoSomethingGood";
 import LastEvents from "./components/LastEvents/LastEvents";
 import OurPartners from "./components/OurPartners/OurPartners";
 import Reviews from "./components/Reviews/Reviews";
+import SupportFuture from "./components/SupportFuture/SupportFuture";
 import SupportKidsFuture from "./components/SupportKidsFuture/SupportKidsFuture";
 import WhatWeDo from "./components/WhatWeDo/WhatWeDo";
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
     <SupportKidsFuture></SupportKidsFuture>
     <OurPartners></OurPartners>
     <Reviews></Reviews>
+    <SupportFuture></SupportFuture>
     </main>
   );
 }
