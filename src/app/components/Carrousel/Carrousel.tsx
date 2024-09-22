@@ -4,7 +4,7 @@ import Navbar from '../Navbar/NavbarComponent';
 export default function Carrousel() {
   return (
     <div className="relative w-screen min-h-[275px] sm:min-h-[300px] md:min-h-[320px] h-auto flex flex-col 
-    pr-5 pl-5
+    pr-20 pl-20 sm:pr-30 sm:pl-30
     lg:pr-[5.21vw] lg:pl-[5.21vw]"> {/* Задаємо мінімальну висоту контейнера */}
       {/* Зображення фону */}
       <div className="absolute inset-0 w-full lg:h-[42.97vw] flex-grow"> {/* flex-grow дозволяє контейнеру розтягуватися */}
@@ -21,22 +21,15 @@ export default function Carrousel() {
       {/* Вміст поверх зображення і градієнта */}
       <div className="relative z-10 flex flex-col ">
         <Navbar />
-        <h1 className="
-        text-2xl
-        sm:text-[2.5rem] 
-        md:text-[3.125rem]
-        pt-[3.25rem]
-        lg:text-[5.21vw]
-           lg:w-[40.81vw]
-           font-amatic 
+        <h1 className=" text-xl sm:text-smXl  md:text-mdXl pt-[3.25rem] lg:text-[5.21vw] lg:w-[40.81vw] font-amatic 
            lg:pt-[7.24vw]
             lg:pb-[1.30vw]
              text-white
              leading-none">Зробіть свій внесок <br></br>у майбутнє дітей сьогодні</h1>
         <p className="
-        text-[0.625rem]
-        sm:-[0.8125rem]
-        md:-[1.0625rem]
+        text-base
+        sm:-smBase
+        md:-mdBase
         max-w-[25rem]
          sm:max-w-[20rem]
         md:max-w-[23.125rem]

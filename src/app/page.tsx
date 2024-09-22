@@ -19,8 +19,8 @@ export default function Home() {
       <Carrousel></Carrousel>
       
       </div>
-      {/* <AboutUs></AboutUs>
-      <div className="overflow-hidden">
+      <AboutUs></AboutUs>
+    {/*   <div className="overflow-hidden">
     <DoSomethingGood></DoSomethingGood>
     <LastEvents></LastEvents>
   

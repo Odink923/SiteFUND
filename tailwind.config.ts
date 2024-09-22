@@ -16,10 +16,22 @@ const config: Config = {
       plugins: [require("daisyui")],
       fontSize: {
         '100px': '100px',
+        'base': '0.625rem',
+        'smBase':'0.8125rem',
+        'mdBase':'1.0625rem',
+        'xl': '1.5rem',
+        'smXl':'2.5rem',
+        'mdXl':'3.125rem',
       },
       fontFamily: {
         amatic: ['"Amatic SC"', 'sans-serif'],
         assistant: ['"Assistant"', 'sans-serif'],
+      },
+      spacing: {
+        '10': '0.625rem',
+        '15': '0.9375rem',
+        '20': '1.25rem',
+        '30': '1.875rem',
       },
    
       

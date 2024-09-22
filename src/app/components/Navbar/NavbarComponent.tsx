@@ -5,7 +5,7 @@ export default function Navbar() {
         pt-5 lg:pt-[1.82vw] 
         "> {/* flex контейнер для розташування елементів */}
             {/* Логотип */}
-            <div className="relative w-[112px] h-[36px]  lg:w-[13.02vw] lg:h-[4.27vw]"> {/* Забезпечує, що логотип не стискається */}
+            <div className="relative w-[112px] h-[36px] sm:scale-125 sm:origin-left lg:scale-100   lg:w-[13.02vw] lg:h-[4.27vw]"> {/* Забезпечує, що логотип не стискається */}
                 <Image
                     src="/images/Logo.png" // Шлях до вашого зображення
                     alt="Logo"
@@ -39,7 +39,7 @@ export default function Navbar() {
                 <button className='bg-white rounded-[50px] font-assistant  lg:text-[0.83vw] lg:w-[10.83vw] lg:h-[2.19vw]'>Зателефонуйте нам</button>
               
             </div>
-            <button className=' lg:hidden'>
+            <button className='sm:scale-125 lg:hidden'>
                     <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect x="0.5" y="0.5" width="24" height="24" rx="12" stroke="white" />
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M7 16.3125C7 16.0709 7.19588 15.875 7.4375 15.875H17.0625C17.3041 15.875 17.5 16.0709 17.5 16.3125C17.5 16.5541 17.3041 16.75 17.0625 16.75H7.4375C7.19588 16.75 7 16.5541 7 16.3125Z" fill="white" />
