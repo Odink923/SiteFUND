@@ -3,7 +3,9 @@ import Navbar from '../Navbar/NavbarComponent';
 
 export default function Carrousel() {
   return (
-    <div className="relative w-screen max-h-[42.97vw] h-auto flex flex-col lg:pr-[5.21vw] lg:pl-[5.21vw]"> {/* Задаємо мінімальну висоту контейнера */}
+    <div className="relative w-screen min-h-[275px] sm:min-h-[300px] md:min-h-[320px] h-auto flex flex-col 
+    pr-5 pl-5
+    lg:pr-[5.21vw] lg:pl-[5.21vw]"> {/* Задаємо мінімальну висоту контейнера */}
       {/* Зображення фону */}
       <div className="absolute inset-0 w-full lg:h-[42.97vw] flex-grow"> {/* flex-grow дозволяє контейнеру розтягуватися */}
         <Image
@@ -19,20 +21,35 @@ export default function Carrousel() {
       {/* Вміст поверх зображення і градієнта */}
       <div className="relative z-10 flex flex-col ">
         <Navbar />
-        <h1 className="lg:text-[5.21vw]
+        <h1 className="
+        text-2xl
+        sm:text-[2.5rem] 
+        md:text-[3.125rem]
+        pt-[3.25rem]
+        lg:text-[5.21vw]
            lg:w-[40.81vw]
            font-amatic 
            lg:pt-[7.24vw]
             lg:pb-[1.30vw]
              text-white
-             leading-none">Зробіть свій внесок у майбутнє дітей сьогодні</h1>
-        <p className=" text-white
+             leading-none">Зробіть свій внесок <br></br>у майбутнє дітей сьогодні</h1>
+        <p className="
+        text-[0.625rem]
+        sm:-[0.8125rem]
+        md:-[1.0625rem]
+        max-w-[25rem]
+         sm:max-w-[20rem]
+        md:max-w-[23.125rem]
+        text-white
+        pt-[0.625rem]
        lg:text-[1.04vw]
-       lg:w-[42.45vw] 
-        font-assistant">
+       lg:max-w-[42.45vw] 
+        font-assistant
+        leading-none
+        text justify">
           Приєднуйтесь до нас у нашій місії надання допомоги та підтримки тим, хто цього потребує. Давайте працювати разом, щоб створити світле майбутнє вже зараз.
         </p>
-        <button className="lg:mt-[1.82vw] bg-white  leading-none  font-assistant font-semibold py-2 px-4 rounded-[50px]
+        <button className="text-[0.625rem] py-2 mt-[0.625rem] w-[8rem] mt-[0.625rem] lg:mt-[1.82vw] bg-white  leading-none  font-assistant font-semibold lg:py-2 lg:px-4 rounded-[50px]
         lg:w-[13.59vw] lg:h-[3.23vw]
         lg:text-[1.04vw]
       
@@ -41,7 +58,7 @@ export default function Carrousel() {
         </button>
 
 
-        <div className='flex lg:pt-[7.92vw] lg:space-x-[0.26vw]  lg:pb-[1.35vw]'>
+        <div className='flex mt-[0.625rem]  lg:pt-[7.92vw] lg:space-x-[0.26vw]  lg:pb-[1.35vw]'>
           <svg width="0.36vw" height="0.36vw" viewBox="0 0 7 7" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="3.5" cy="3.5" r="3.5" fill="white" fill-opacity="0.8" />
           </svg>

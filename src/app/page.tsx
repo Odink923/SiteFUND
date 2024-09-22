@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import AboutUs from "./components/AboutUs/AboutUs";
 import Carrousel from "./components/Carrousel/Carrousel"
 import DoSomethingGood from "./components/DoSomethingGood/DoSomethingGood";
@@ -9,13 +10,16 @@ import SupportFuture from "./components/SupportFuture/SupportFuture";
 import SupportKidsFuture from "./components/SupportKidsFuture/SupportKidsFuture";
 import WhatWeDo from "./components/WhatWeDo/WhatWeDo";
 export default function Home() {
-  return (
+  return (<div>
+    <Head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </Head>
     <main >
      <div className="overflow-hidden">
       <Carrousel></Carrousel>
       
       </div>
-      <AboutUs></AboutUs>
+      {/* <AboutUs></AboutUs>
       <div className="overflow-hidden">
     <DoSomethingGood></DoSomethingGood>
     <LastEvents></LastEvents>
@@ -26,7 +30,19 @@ export default function Home() {
     <OurPartners></OurPartners>
     <Reviews></Reviews>
     <SupportFuture></SupportFuture>
-    <Footer></Footer>
+    <Footer></Footer> */}
     </main>
+    </div>
   );
 }
+
+
+
+
+
+
+
+
+
+
+

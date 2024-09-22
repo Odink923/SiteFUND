@@ -44,7 +44,7 @@ export default function Footer() {
                     className="object-contain
                 lg:w-[2.08vw] lg:h-[2.08vw] " // Встановлює об'єктну відповідність для утримання оригінального розміру
                 />
-                <p className="text-white text-[1.04vw] pr-[5.21vw]">380 36 026 6565</p>
+                <p className="text-white lg:text-[1.04vw] lg:pr-[5.21vw]">380 36 026 6565</p>
                 </div>
        </div>
     );
