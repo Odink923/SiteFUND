@@ -15,7 +15,7 @@ export default function AboutUs() {
                 </div>
                 <div className='flex flex-col sm:w-[22.8125rem] sm:pl-[3.125rem] lg:ml-[5.26vw] lg:w-[29.43vw] justify-center  '>
                     <h1 className='font-amatic text-xl sm:text-smXl md:text-mdXl lg:text-[3.33vw] lg:pb-[2.34vw]'>Про нас</h1>
-                    <p className='font-assistant pt-15 pb-15 text-[0.625rem] text-justify lg:text-[1.04vw]  leading-none'>Ми є некомерційною організацією, розташованою в
+                    <p className='font-assistant pt-15 pb-15 text-base sm:text-smBase md:text-mdBase text-justify lg:text-[1.04vw]  leading-none'>Ми є некомерційною організацією, розташованою в
                         місті Київ, Україна. Наша місія полягає у підтримці
                         окремих осіб та громад через різноманітні ініціативи та послуги.
                         <br /><br />

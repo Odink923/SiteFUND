@@ -20,8 +20,11 @@ export default function Home() {
       
       </div>
       <AboutUs></AboutUs>
+      <div className="overflow-hidden">
+      <DoSomethingGood></DoSomethingGood>
+      </div>
     {/*   <div className="overflow-hidden">
-    <DoSomethingGood></DoSomethingGood>
+   
     <LastEvents></LastEvents>
   
     </div>

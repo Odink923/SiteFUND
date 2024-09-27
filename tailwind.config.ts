@@ -18,7 +18,7 @@ const config: Config = {
         '100px': '100px',
         'base': '0.625rem',
         'smBase':'0.8125rem',
-        'mdBase':'1.0625rem',
+        'mdBase':'0.8125rem',
         'xl': '1.5rem',
         'smXl':'2.5rem',
         'mdXl':'3.125rem',

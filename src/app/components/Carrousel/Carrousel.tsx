@@ -28,11 +28,11 @@ export default function Carrousel() {
              leading-none">Зробіть свій внесок <br></br>у майбутнє дітей сьогодні</h1>
         <p className="
         text-base
-        sm:-smBase
-        md:-mdBase
+        sm:text-smBase
+        md:text-mdBase
         max-w-[25rem]
-         sm:max-w-[20rem]
-        md:max-w-[23.125rem]
+         sm:max-w-[32rem]
+        md:max-w-[32.125rem]
         text-white
         pt-[0.625rem]
        lg:text-[1.04vw]
