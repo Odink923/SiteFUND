@@ -2,7 +2,7 @@ import Image from 'next/image';
 export default function DoSomethingGood() {
     return (
         <div >
-            <div className="flex flex-col pl-20 pr-20 lg:flex-row lg:items-center lg:pl-[5.83vw] lg:pt-[5.99vw] lg:pb-[3.39vw]">
+            <div className="flex flex-col pt-30 pb-15 pl-20 pr-20 lg:flex-row lg:items-center lg:pl-[5.83vw] lg:pt-[5.99vw] lg:pb-[3.39vw]">
                 <h1 className="font-amatic text-xl sm:text-smXl md:text-mdXl lg:text-[3.33vw]">Зробіть щось хороше сьогодні</h1>
                 <p className="font-assistant text-base sm:text-smBase lg:text-[1.04vw] lg:w-[29.43vw] leading-none lg:ml-[23.94vw] ">Приєднуйтесь до нас, щоб підтримати ініціативи в Києві. Разом ми приносимо надію і змінюємо життя на краще.
                 </p>

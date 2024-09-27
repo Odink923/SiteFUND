@@ -14,7 +14,7 @@ const CarouselComponent = () => {
     return (
         <div className="relative">
             <Swiper
-                slidesPerView={1.8}
+               
                 centeredSlides={true}
                 initialSlide={1}
                 navigation={true}
@@ -22,13 +22,29 @@ const CarouselComponent = () => {
                 className="mySwiper"
                 onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
                 breakpoints={{
+                    320: {
+                        slidesPerView: 1.5,
+                        spaceBetween: 10,
+                    },
+                    640:{
+                        slidesPerView: 1.8,
+                        spaceBetween: 15,
+                    },
+                    720:{
+                        slidesPerView: 1.8,
+                        spaceBetween: 20,
+                    },
+                    
                     1024: {
+                        slidesPerView: 1.8,
                         spaceBetween: 37,
                     },
                     1280: {
+                        slidesPerView: 1.8,
                         spaceBetween: 46,
                     },
                     1536: {
+                        
                         spaceBetween: 55,
                     },
                 }}
@@ -57,8 +73,8 @@ const CarouselComponent = () => {
                                     <div className="absolute inset-0 bg-gradient-to-t from-[#202020d9] to-transparent rounded-[3.13vw]"></div>
                                     {slide.title && (
                                         <div className="absolute bottom-10 left-10 text-white">
-                                            <p className="text-[1.04vw] font-assistant">{slide.date}</p>
-                                            <h2 className="text-[1.88vw] font-assistant font-semibold">{slide.title}</h2>
+                                            <p className="text-base sm:text-smBase lg:text-[1.04vw] font-assistant">{slide.date}</p>
+                                            <h2 className="text-base sm:text-smBase lg:text-[1.88vw] font-assistant font-semibold">{slide.title}</h2>
                                         </div>
                                     )}
                                 </>
