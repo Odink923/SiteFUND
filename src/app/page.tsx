@@ -27,13 +27,13 @@ export default function Home() {
       <div className="overflow-hidden">
       <WhatWeDo></WhatWeDo>
       </div>
-     
+      <SupportKidsFuture></SupportKidsFuture>
     {/*  
    
    
   
     </div>
-    <SupportKidsFuture></SupportKidsFuture>
+    
    
     <OurPartners></OurPartners>
     <Reviews></Reviews>
