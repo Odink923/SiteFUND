@@ -12,8 +12,11 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+          'what-we-do': "url('/images/WhatWeDo.png')",
+          'what-we-do-change': "url('/images/WhatWeDoChange.png')",
       },
-      plugins: [require("daisyui")],
+      
+      
       fontSize: {
         '100px': '100px',
         'base': '0.625rem',
@@ -33,10 +36,12 @@ const config: Config = {
         '20': '1.25rem',
         '30': '1.875rem',
       },
+      
    
       
     },
+    plugins: [require("daisyui")],
   },
-  plugins: [],
+  
 };
 export default config;

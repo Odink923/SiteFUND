@@ -24,13 +24,17 @@ export default function Home() {
       <DoSomethingGood></DoSomethingGood>
       </div>
       <LastEvents></LastEvents>
-    {/*   <div className="overflow-hidden">
+      <div className="overflow-hidden">
+      <WhatWeDo></WhatWeDo>
+      </div>
+     
+    {/*  
    
    
   
     </div>
-    <WhatWeDo></WhatWeDo>
     <SupportKidsFuture></SupportKidsFuture>
+   
     <OurPartners></OurPartners>
     <Reviews></Reviews>
     <SupportFuture></SupportFuture>

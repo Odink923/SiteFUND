@@ -7,7 +7,7 @@ export default function Carrousel() {
     pr-20 pl-20 sm:pr-30 sm:pl-30
     lg:pr-[5.21vw] lg:pl-[5.21vw]"> {/* Задаємо мінімальну висоту контейнера */}
       {/* Зображення фону */}
-      <div className="absolute inset-0 w-full lg:h-[42.97vw] flex-grow"> {/* flex-grow дозволяє контейнеру розтягуватися */}
+      <div className="absolute inset-0 w-full lg:h-[42.97vw]  flex-grow"> {/* flex-grow дозволяє контейнеру розтягуватися */}
         <Image
           src="/images/ImageCarrousel.png" // Шлях до вашого зображення
           alt="Image Carrousel"
