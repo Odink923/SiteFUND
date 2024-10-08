@@ -28,6 +28,7 @@ export default function Home() {
       <WhatWeDo></WhatWeDo>
       </div>
       <SupportKidsFuture></SupportKidsFuture>
+      <OurPartners></OurPartners>
     {/*  
    
    
@@ -35,7 +36,7 @@ export default function Home() {
     </div>
     
    
-    <OurPartners></OurPartners>
+   
     <Reviews></Reviews>
     <SupportFuture></SupportFuture>
     <Footer></Footer> */}
