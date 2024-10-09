@@ -17,7 +17,6 @@ export default function Home() {
     <main >
      <div className="overflow-hidden">
       <Carrousel></Carrousel>
-      
       </div>
       <AboutUs></AboutUs>
       <div className="overflow-hidden">
@@ -30,6 +29,9 @@ export default function Home() {
       <SupportKidsFuture></SupportKidsFuture>
       <OurPartners></OurPartners>
       <Reviews></Reviews>
+    
+      <SupportFuture></SupportFuture>
+      <Footer></Footer>
     {/*  
    
    
@@ -39,7 +41,7 @@ export default function Home() {
    
    
 
-    <SupportFuture></SupportFuture>
+   
     <Footer></Footer> */}
     </main>
     </div>
