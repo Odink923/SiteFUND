@@ -11,9 +11,12 @@ const config: Config = {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-          'what-we-do': "url('/images/WhatWeDo.png')",
-          'what-we-do-change': "url('/images/WhatWeDoChange.png')",
+        "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'what-we-do': "url('/images/WhatWeDo.png')",
+        'what-we-do-change': "url('/images/WhatWeDoChange.png')",
+
+        'reviews': "url('/images/Reviews.png')",
+        'reviews-change': "url('/images/Reviews1.png')",
       },
       
       

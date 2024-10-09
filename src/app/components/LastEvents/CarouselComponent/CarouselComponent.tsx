@@ -44,7 +44,7 @@ const CarouselComponent = () => {
                         spaceBetween: 46,
                     },
                     1536: {
-                        
+                        slidesPerView: 1.8,
                         spaceBetween: 55,
                     },
                 }}

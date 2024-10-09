@@ -29,6 +29,7 @@ export default function Home() {
       </div>
       <SupportKidsFuture></SupportKidsFuture>
       <OurPartners></OurPartners>
+      <Reviews></Reviews>
     {/*  
    
    
@@ -37,7 +38,7 @@ export default function Home() {
     
    
    
-    <Reviews></Reviews>
+
     <SupportFuture></SupportFuture>
     <Footer></Footer> */}
     </main>
