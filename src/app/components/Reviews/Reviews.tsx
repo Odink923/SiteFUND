@@ -13,7 +13,7 @@ export default function Reviews() {
 
             {/* Накладений контент */}
             <div className="relative flex flex-col pt-[3.39vw]">
-                <h1 className="pl-20 pr-20 pb-15 text-xl sm:text-smXl font-amatic lg:pl-[5.21vw] lg:text-[3.33vw]">
+                <h1 className="pl-20 pr-20 pb-15 text-xl sm:text-smXl md:text-mdXl font-amatic lg:pl-[5.21vw] lg:text-[3.33vw]">
                     Відгуки
                 </h1>
                 <ReviewsCarrousel />

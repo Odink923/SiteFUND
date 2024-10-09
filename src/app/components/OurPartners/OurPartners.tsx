@@ -8,7 +8,7 @@ export default function OurPartners() {
     return (
         <div className="lg:pl-[5.21vw] lg:pr-[5.21vw] lg:pt-[5.99vw]">
             <div className='pl-20 pr-20 pb-30'>
-            <h1 className="text-xl pb-10 sm:text-smXl lg:text-[3.33vw] font-amatic">Наші партнери</h1>
+            <h1 className="text-xl pb-10 sm:text-smXl lg:text-[3.33vw] md:text-mdXl font-amatic">Наші партнери</h1>
             <p className="font-assistant text-base sm:text-smBase md:text-mdBase lg:text-[1.04vw] lg:w-[28.49vw] lg:pt-[2.60vw] leading-none">
                 Благодійні організації по всьому Києву використовують наші послуги для досягнення своїх цілей.
             </p>
